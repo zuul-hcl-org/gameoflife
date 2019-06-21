@@ -79,4 +79,4 @@
     gate:
       jobs:
         - helloworldjob:
-            nodeset: gate-node    
+            nodeset: gate-node              
