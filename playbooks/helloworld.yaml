@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
     - debug:
-        msg: "running for game of life demo"
+        msg: "game of life demo"
  
     - name: "Deleted the workspace dir before build"
       shell: |
