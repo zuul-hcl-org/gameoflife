@@ -3,10 +3,7 @@
     nodes:
       - name: centosaws
         label: centos1
-#    groups:
-#      - name: emea-vars
-#        nodes:
-#         - node
+
          
 - nodeset:
     name: nafta-node
