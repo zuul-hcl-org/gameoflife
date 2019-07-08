@@ -5,5 +5,4 @@ ROSbagDatalocation=“emea”
 ROSBagstoragepath = “/var/data/rosbag.tar”
 InputScenarioData =“/var/data/input/*.jcsen”
 Emea_artifactlocation =“fcacom/emea/artifactory”
-Nafta_artifactlocation=“fca.com/nafta/artifactory
-Appname=“gameoflife”
+Nafta_artifactlocation=“fca.com/nafta/artifactory"
