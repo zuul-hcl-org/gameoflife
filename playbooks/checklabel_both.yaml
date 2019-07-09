@@ -34,8 +34,7 @@
     - set_fact:
        content1_url="{{content_output.stdout}}"
 
-    - name: print content  url
-      debug:
+    - debug:
        msg: "{{ content1_url }}"
 
     - name: get the location in the file
