@@ -4,6 +4,6 @@ sharedArtifactorylocation=“nafta/artifactory”
 ROSbagDatalocation=“both”
 ROSBagstoragepath = “/var/data/rosbag.tar”
 InputScenario1Data =“/var/data/emea/input/*.jcsen”
-InputScenario2Data =“/var/data/nafta/input/*.jcsen”
+InputScenario2Data =“/var/data/nafta/inputw/*.jcsen”
 Emea_artifactlocation =“fca.com/emea/artifactory”
 Nafta_artifactlocation=“fca.com/nafta/artifactory”
