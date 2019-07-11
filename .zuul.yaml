@@ -49,10 +49,6 @@
       - ^.zuul.yaml$
 
 - project:
-    checklabel_both:
-      jobs:
-       - buildlocationjob:
-           nodeset: emea-node
     checklabel_emea:
       jobs:
        - checklabel_emea:
@@ -60,10 +56,7 @@
     checklabel_nafta:
       jobs:
        - checklabel_nafta:
-           nodeset: nafta-node
-           
- 
-           
+           nodeset: nafta-node      
     check_emea:
       jobs:
         - gameoflifebuild:
