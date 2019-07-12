@@ -77,6 +77,6 @@
       
     - name: deploy to kubernetes
       shell: |
-           cd /home/ec2-user/work/gameoflife
+           cd /home/ec2-user/work
            kubectl apply -f kubedeploy.yml
                    
