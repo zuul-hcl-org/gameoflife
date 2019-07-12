@@ -67,7 +67,7 @@
            
     - name : push the docker images 
       shell: |
-           docker push {{ jfrog_docker }}/docker-local/tomcat:latest 
+           docker push {{ jfrog }}/docker-local/tomcat:latest 
             
 #    - name: deploy to tomcat server
 #      shell: |
