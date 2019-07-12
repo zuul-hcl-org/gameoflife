@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: /docker-local/tomcat:latest
+        image: ec2-13-234-232-162.ap-south-1.compute.amazonaws.com:9083/docker-local/tomcat:latest
         ports:
         - containerPort: 8080
 ---
