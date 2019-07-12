@@ -15,14 +15,14 @@
     - name: "Create the work dir"
       shell: |
             mkdir ~/work
-      register: clean_output  
+      register: make_output  
       
     - name: Clone git repo
       git:
         repo: https://github.com/zuul-hcl-org/gameoflife.git
         dest: ~/work/
-      when: clean_output is succeeded
-      become: true
+      when: make_output is succeeded
+#      become: true
       
     - name: Build sample project and junit reports 
       shell: |
