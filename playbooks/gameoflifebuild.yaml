@@ -80,7 +80,7 @@
 #             docker restart tomcat_tomcat_1
 #      when: build_status is succeeded
  
-     - name: Modify the kubedeploy.ym file:
+     - name: Modify the kubedeploy.yml file
        replace:
          path: /etc/apache2/sites-available/default.conf
          regexp: 'dummy.com/docker-local/tomcat:latest'
