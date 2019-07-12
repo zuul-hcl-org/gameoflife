@@ -63,11 +63,11 @@
     - name : build the docker image 
       shell: |
            cd /home/ec2-user/work
-           docker build -t {{ jfrog }}/docker-local/tomcat:latest . 
+           docker build -t {{ jfrog_docker }}/docker-local/tomcat:latest . 
            
     - name : push the docker images 
       shell: |
-           docker push {{ jfrog }}/docker-local/tomcat:latest 
+           docker push {{ jfrog_docker }}/docker-local/tomcat:latest 
             
 #    - name: deploy to tomcat server
 #      shell: |
