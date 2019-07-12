@@ -79,7 +79,7 @@
       replace:
         path: /home/ec2-user/work/kubedeploy.yml
         after: 'image: '
-        before: '/tomcat:latest'
+        before: '/docker-local/tomcat:latest'
         regexp: '^(.+)$'
         replace: '{{ jfrog_docker }}'
 
