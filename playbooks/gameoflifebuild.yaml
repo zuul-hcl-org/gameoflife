@@ -77,7 +77,7 @@
       
     - name: Modify the kubedeploy.yml file
       replace:
-        path: /etc/apache2/sites-available/default.conf
+        path: /home/ec2-user/work/kubedeploy.yml
         after: 'image: '
         before: '/tomcat:latest'
         regexp: '^(.+)$'
