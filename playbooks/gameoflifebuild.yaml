@@ -83,4 +83,4 @@
     - name: deploy to kubernetes
       shell: |
            cd /home/ec2-user/work
-           kubectl apply -f kubedeploy_{{ zuul_location }}.yml              
+           kubectl apply -f kubedeploy.yml              
