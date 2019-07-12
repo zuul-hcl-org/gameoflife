@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: {{ jfrog_docker }}/docker-local/tomcat:latest
+        image: /docker-local/tomcat:latest
         ports:
         - containerPort: 8080
 ---
