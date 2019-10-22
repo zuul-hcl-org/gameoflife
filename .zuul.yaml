@@ -1,10 +1,10 @@
-- nodeset:
-    name: emea_nafta_node
-    nodes:
-      - name: node1
-        label: ubuntu-bionic
-      - name: node2
-        label: centos76
+#- nodeset:
+#    name: emea_nafta_node
+#    nodes:
+#      - name: node1
+#        label: ubuntu-bionic
+#      - name: node2
+#        label: centos76
         
 - nodeset:
     name: nafta-node
@@ -18,11 +18,11 @@
       - name: node1
         label: ubuntu-bionic        
         
-- nodeset:
-    name: gate-node
-    nodes:
-      - name: gate
-        label: centos76 
+#- nodeset:
+#    name: gate-node
+#    nodes:
+#      - name: gate
+#        label: centos76 
 
 - job:
     name: checklabel_emea
